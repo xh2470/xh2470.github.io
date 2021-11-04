@@ -1,0 +1,77 @@
+---
+title: "Xueqing Huang's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+My name is Xueqing Huang, a master student in Columbia University. 
+
+This is my personal website and you can learn more about me on this website.
+
+## Education
+
+### Columbia University in the City of New York 
+Biostatistics/ Master (09/2021—05/2023)
+
+### Shaanxi Normal University 
+Mathematics & Applied Mathematics/ Undergraduate (09/2016—07/2020)
+
+English (Minor)/ Undergraduate (09/2017—07/2020)
+    
+## Working Experience
+
+### IQVIA Solutions Enterprise Management Consulting (Shanghai) Co., Ltd.
+
+Healthcare Department/Analyst Intern (06/2021—08/2021)
+
+* Participated in group discussion, interviews and meetings, and prepared meeting minutes.
+* Assisted the team to complete market research related to medical industry, including collecting first-hand and second-hand information.
+
+### Pfizer(China) R&D Co., Ltd.
+
+Biometric Department/ Statistical Analyst Intern (03/2021—05/2021)
+
+* Wrote mock shells and SAS programs for creation of Tables, Listings and Figures according to CDISC standard and Pfizer standard.
+* Performed quality control of study results, and ensured accuracy of all statistical data.
+
+### MacroStat (China) Clinical Research Co.,Ltd.
+
+Biometric Department/ SAS Programmer Intern (11/2020—02/2021)
+
+* According to CDISC standard, wrote SAS programs for SDTM, ADaM, Analysis Data Set(ADS), and Tables, Figures and Listings(TFLs).
+* Validated ADS and TFLs produced by other programmers.
+* Ensured all statistical activities in accordance with internal and external quality standards, ICH-GCP and other international and local regulatory requirements.
+
+### Guangzhou Jeeyor Medical Research Co.,Ltd.
+
+Statistics Department/ Biostatistician Intern (07/2020—10/2020)
+
+* Be responsible for statistical design of clinical trial protocol, randomization and blinding.
+* Used PASS for sample size estimation, SAS for randomization of subjects and drugs, and statistical analysis.
+* Participated in data audit meeting, reviewed data audit report, discussed protocol deviation, and gave opinions on dataset division.
+* Participated in protocol discussion, project summary and other meetings, reviewed research protocol, Case Report Form(CRF), Clinical Study Report(CSR), etc.
+* Wrote Statistical Analysis Plan (SAP), Statistical Analysis Report (SAR), etc.
+
+## Research Experience
+
+### Diagonalization of Complex Symmetric Matrix Based on MATLAB
+
+National Key Scientific Research Project/ Project Leader (03/2018—06/2019)
+
+* Gave a MATLAB program based on Household matric, Jivens rotation and algorithm given by J. H. Noble et al.
+* Programmed in MATLAB to realize diagonalization of complex symmetric matrix within a certain error range.
+* Published project outcomes on _Studies in College Mathematics_ as the first author.
+
+### Design of High-Temperature Special Clothing
+
+First Prize in Shaanxi Province of CUMCM/ Group Leader (09/2018)
+
+* Established temperature distribution model, single-objective and double-objective optimization models based on the principle of heat conduction equation;
+* Discretized the partial differential equation by using MATLAB, and solved it by finite difference and dichotomy method.
+* Draw images according to the solution, discussed whether the solution conforms to reality and made improvement.
+
+## Contact information
+* Github: [https://github.com/xh2470](https://github.com/xh2470) 
+* Email: [xh2470@cumc.columbia.edu](mailto:xh2470@cumc.columbia.edu)
