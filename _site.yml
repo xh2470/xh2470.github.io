@@ -3,8 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Plotly"
-      href: plotly.html  
+    - text: "Experience"
+      href: experience.html  
     - text: "dashboard"
       href: dashboard.html    
     - icon: fa-envelope fa-lg
@@ -13,4 +13,4 @@ navbar:
       href: https://github.com/xh2470
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
