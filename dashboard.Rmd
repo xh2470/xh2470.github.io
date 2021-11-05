@@ -1,0 +1,68 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("ny_noaa")
+
+ny_noaa = 
+  ny_noaa %>% 
+  select(-tmax, -tmin) %>% 
+  filter(!is.na(prcp),
+         !is.na(snow), 
+         !is.na(snwd)) 
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Precipitation of selected Weather Stations
+
+```{r}
+ny_noaa %>% 
+  filter(id %in% c("US1NYAB0001", "US1NYAB0006", "US1NYAB0021", "US1NYAB0022", "US1NYAB0023", "US1NYAB0025")) %>% 
+  mutate(id = fct_reorder(id, prcp)) %>% 
+  plot_ly(y = ~prcp, color = ~id, type = "box", colors = "viridis") %>% 
+  layout(yaxis = list(title = "Precipitation"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+### Precipitation of US1NYAB0001 across time
+
+```{r}
+ny_noaa %>%
+  filter(id == "US1NYAB0001") %>% 
+  mutate(text_label = str_c("Date: ", date, "\nPrecipitation (tenths of mm): ", prcp)) %>% 
+  plot_ly(
+    x = ~date, y = ~prcp, type = "scatter", mode = "markers",
+    text = ~text_label, alpha = 0.5) %>% 
+  layout(xaxis = list(title = "Time"),
+        yaxis = list(title = "Precipitation"))
+```
+
+### Snowfall of US1NYAB0001
+
+```{r}
+ny_noaa %>% 
+  filter(id == "US1NYAB0001" &
+         0 < snow & snow < 200) %>% 
+  group_by(snow) %>% 
+  summarize(n = n()) %>% 
+  plot_ly(x = ~snow, y = ~n, type = "bar", colors = "viridis") %>% 
+  layout(xaxis = list(title = "Snowfall"),
+        yaxis = list(title = "Count"))
+```
+
