@@ -5,9 +5,12 @@ output:
     toc: true
     toc_float: true
 ---
-<img src="image.jpg" style="width:75%">
+<img src="image.jpg" style="width:60%">
 
 Hi,my name is Xueqing Huang, a master student in Columbia University. 
 
-This is my personal website and you can learn more about me on this website.
+This is my personal website and you can find my personal experience [here](experience.html).
 
+## Contact information
+* Github: [https://github.com/xh2470](https://github.com/xh2470) 
+* Email: [xh2470@cumc.columbia.edu](mailto:xh2470@cumc.columbia.edu)

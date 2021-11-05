@@ -9,31 +9,31 @@ output:
 
 ## Education
 
-### Columbia University in the City of New York 
+### `Columbia University in the City of New York` 
 Biostatistics/ Master (09/2021—05/2023)
 
-### Shaanxi Normal University 
+### `Shaanxi Normal University` 
 Mathematics & Applied Mathematics/ Undergraduate (09/2016—07/2020)
 
 English (Minor)/ Undergraduate (09/2017—07/2020)
     
 ## Working Experience
 
-### IQVIA Solutions Enterprise Management Consulting (Shanghai) Co., Ltd.
+### `IQVIA Solutions Enterprise Management Consulting (Shanghai) Co., Ltd.`
 
 Healthcare Department/Analyst Intern (06/2021—08/2021)
 
 * Participated in group discussion, interviews and meetings, and prepared meeting minutes.
 * Assisted the team to complete market research related to medical industry, including collecting first-hand and second-hand information.
 
-### Pfizer(China) R&D Co., Ltd.
+### `Pfizer(China) R&D Co., Ltd.`
 
 Biometric Department/ Statistical Analyst Intern (03/2021—05/2021)
 
 * Wrote mock shells and SAS programs for creation of Tables, Listings and Figures according to CDISC standard and Pfizer standard.
 * Performed quality control of study results, and ensured accuracy of all statistical data.
 
-### MacroStat (China) Clinical Research Co.,Ltd.
+### `MacroStat (China) Clinical Research Co.,Ltd.`
 
 Biometric Department/ SAS Programmer Intern (11/2020—02/2021)
 
@@ -43,7 +43,7 @@ Biometric Department/ SAS Programmer Intern (11/2020—02/2021)
 
 ## Research Experience
 
-### Diagonalization of Complex Symmetric Matrix Based on MATLAB
+### `Diagonalization of Complex Symmetric Matrix Based on MATLAB`
 
 National Key Scientific Research Project/ Project Leader (03/2018—06/2019)
 
